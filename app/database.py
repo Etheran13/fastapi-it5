@@ -41,7 +41,7 @@ def initialize_database() -> None:
             """
         )
         
-        # Table 2: Bookings (Related Table with Foreign Key)
+        # Table 2: Bookings (Secondary Table)
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS bookings (
